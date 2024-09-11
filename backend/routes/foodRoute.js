@@ -23,7 +23,7 @@ import express from "express";
 // export default foodRouter;
 
 
-import express from "express";
+// import express from "express";
 import { addFood, listFood, removeFood } from "../controllers/foodController.js";
 import multer from "multer";
 import path from "path";
