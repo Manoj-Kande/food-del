@@ -27,7 +27,7 @@ app.use(express.json());
 connectDb();
 
 // Serve static files
-app.use("/images", express.static('uploads'));
+app.use('/images', express.static('uploads'));
 
 // API routes
 app.use("/api/food", foodRouter);
