@@ -30,10 +30,10 @@ connectDb();
 app.use("/images", express.static('uploads'));
 
 // API routes
-app.use("/api/food", foodRouter);
-app.use("/api/user",userRouter);
+app.use("https://food-del-backend-seven.vercel.app/api/food", foodRouter);
+app.use("https://food-del-backend-seven.vercel.app/api/user",userRouter);
 app.use("/api/cart",cartRouter);
-app.use("/api/order",orderRouter);
+app.use("https://food-del-backend-seven.vercel.app/api/order",orderRouter);
 
 
 app.get("/", (req, res) => {
