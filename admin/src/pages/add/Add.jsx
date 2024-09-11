@@ -5,7 +5,7 @@ import axios from "axios";
 import { toast } from "react-toastify";
 
 const Add = ({ url }) => {
-  // const url="https://food-del-backend-seven.vercel.app/";
+  // const url="https://food-del-backend-seven.vercel.app";
   const [image, setImage] = useState(false);
   const [data, setData] = useState({
     name: "",

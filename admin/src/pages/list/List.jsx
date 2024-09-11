@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 import { useEffect } from "react";
 
 const List = ({ url }) => {
-  // const url="https://food-del-backend-seven.vercel.app/";
+  // const url="https://food-del-backend-seven.vercel.app";
   const [list, setList] = useState([]);
 
   const fetchList = async () => {
