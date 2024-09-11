@@ -32,7 +32,7 @@ app.use("/images", express.static('uploads'));
 // API routes
 app.use("https://food-del-backend-seven.vercel.app/api/food", foodRouter);
 app.use("https://food-del-backend-seven.vercel.app/api/user",userRouter);
-app.use("/api/cart",cartRouter);
+app.use("https://food-del-backend-seven.vercel.app/api/cart",cartRouter);
 app.use("https://food-del-backend-seven.vercel.app/api/order",orderRouter);
 
 
